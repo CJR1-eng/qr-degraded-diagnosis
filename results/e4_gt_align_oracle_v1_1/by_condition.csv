@@ -1,0 +1,7 @@
+﻿condition,n,original_correct,oracle_correct,rescued,oracle_wrong_payload
+C0_CLEAN,100,100,100,0,0
+P1_MILD,100,100,100,0,0
+P2_MEDIUM,100,80,91,11,0
+P3_STRONG,100,35,38,3,0
+P4_MEDIUM_BLUR_S2,100,31,92,61,0
+P5_MEDIUM_BLUR_S3,100,0,69,69,0

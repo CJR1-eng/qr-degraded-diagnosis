@@ -1,0 +1,6 @@
+﻿config,correct,wrong,delta_vs_full,rate
+full,490,0,0,81.67
+no_search,490,0,0,81.67
+no_gate,453,0,-37,75.5
+no_fallback,396,0,-94,66.0
+no_perturb,462,0,-28,77.0

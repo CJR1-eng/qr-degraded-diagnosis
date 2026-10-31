@@ -1,0 +1,24 @@
+{
+  "validation": "PASS",
+  "rows": 600,
+  "mode": "GT_ALIGN_ORACLE",
+  "gt_alignment_injected": 490,
+  "overall": {
+    "oracle_correct": 490,
+    "oracle_wrong_payload": 0,
+    "oracle_correct_rate": 0.8166666666666667,
+    "original_correct": 346,
+    "original_correct_rate": 0.5766666666666667
+  },
+  "recovery_on_144_target": {
+    "no_alignment_target": 100,
+    "no_alignment_rescued": 100,
+    "mislock_target": 44,
+    "mislock_rescued": 44,
+    "total_target": 144,
+    "total_rescued": 144
+  },
+  "regression": 0,
+  "injected_but_failed": 0,
+  "finder_not_found_ceiling": 110
+}

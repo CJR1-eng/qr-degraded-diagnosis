@@ -1,0 +1,9 @@
+{
+  "r3_correct": 462,
+  "perturb_correct": 489,
+  "oracle_correct": 490,
+  "perturb_wrong_payload": 0,
+  "rescued_vs_r3": 27,
+  "regressed_vs_r3": 0,
+  "remaining_gap_vs_oracle": 1
+}

@@ -1,0 +1,74 @@
+{
+  "method": "E5_ADAPTIVE + checksum-triggered fourth-point perturbation retry",
+  "perturb_steps_modules": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "perturb_directions": "8 (4 axis + 4 diagonal) along finder (u,v) basis",
+  "e2": {
+    "n": 1000,
+    "perturb_correct": 900,
+    "rate": 0.9,
+    "wrong_payload": 0
+  },
+  "e4": {
+    "n": 600,
+    "r3_correct": 462,
+    "perturb_correct": 490,
+    "rate": 0.8166666666666667,
+    "oracle_correct": 490,
+    "wrong_payload": 0,
+    "rescued_vs_r3": 28,
+    "regressed_vs_r3": 0,
+    "remaining_gap_vs_oracle": 0
+  },
+  "combined_1600": {
+    "perturb_total": 1390,
+    "rate": 0.86875
+  },
+  "e4_by_condition": [
+    {
+      "condition": "C0_CLEAN",
+      "n": 100,
+      "e5_r3": 100,
+      "e5_perturb": 100,
+      "oracle": 100
+    },
+    {
+      "condition": "P1_MILD",
+      "n": 100,
+      "e5_r3": 100,
+      "e5_perturb": 100,
+      "oracle": 100
+    },
+    {
+      "condition": "P2_MEDIUM",
+      "n": 100,
+      "e5_r3": 91,
+      "e5_perturb": 91,
+      "oracle": 91
+    },
+    {
+      "condition": "P3_STRONG",
+      "n": 100,
+      "e5_r3": 38,
+      "e5_perturb": 38,
+      "oracle": 38
+    },
+    {
+      "condition": "P4_MEDIUM_BLUR_S2",
+      "n": 100,
+      "e5_r3": 91,
+      "e5_perturb": 92,
+      "oracle": 92
+    },
+    {
+      "condition": "P5_MEDIUM_BLUR_S3",
+      "n": 100,
+      "e5_r3": 42,
+      "e5_perturb": 69,
+      "oracle": 69
+    }
+  ]
+}

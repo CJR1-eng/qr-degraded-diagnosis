@@ -1,0 +1,31 @@
+{
+  "projective_prior_ms": {
+    "e4_mean": 0.0091,
+    "e4_median": 0.006,
+    "e2_mean": 0.0051,
+    "e2_median": 0.0038
+  },
+  "perturb_retry": {
+    "e4_SUCCESS": {
+      "n": 28,
+      "retry_ms_mean": 1.124,
+      "retry_ms_median": 0.726,
+      "candidates_mean": 4.7
+    },
+    "e2_EXHAUSTED": {
+      "n": 76,
+      "retry_ms_mean": 0.007,
+      "retry_ms_median": 0.005,
+      "candidates_mean": 0.0
+    }
+  },
+  "elapsed_ms": {
+    "e4_original_mean": 8.85,
+    "e4_e5_mean": 8.97,
+    "e4_overhead_ms": 0.12
+  },
+  "gain": {
+    "e4_correct": 490,
+    "e4_success_rescued": 28
+  }
+}

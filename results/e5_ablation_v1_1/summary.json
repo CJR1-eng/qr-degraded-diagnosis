@@ -1,0 +1,17 @@
+{
+  "full_correct": 490,
+  "ablation": {
+    "full": 490,
+    "no_search": 490,
+    "no_gate": 453,
+    "no_fallback": 396,
+    "no_perturb": 462
+  },
+  "component_delta_vs_full": {
+    "A 投影搜索引导": 0,
+    "B P0_proj 门控": 37,
+    "C 投影回退": 94,
+    "D 微扰重试": 28
+  },
+  "note": "search guidance (A) contributes 0: allowance loop (4..16 modules) is already robust; geometry decision (gate/fallback) and sub-module correction (perturb) are the key drivers."
+}
