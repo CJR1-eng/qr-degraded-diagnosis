@@ -8,6 +8,8 @@ This is **not "yet another decoder"**. It is a *diagnosis framework*: it explain
 
 ## What it looks like (60-second overview)
 
+*All examples below are **synthetically** generated (perspective warp + Gaussian blur), not real camera captures — see [Datasets](#datasets).*
+
 **The degradation spectrum** — one QR code, from clean to strong perspective + heavy blur:
 
 ![degradation gallery](docs/images/degradation_gallery.png)
@@ -106,6 +108,8 @@ We also benchmarked the *same* images against other decoders — and report the 
 ```
 
 ## Datasets
+
+> **Scope note:** both benchmarks below are **synthetic** — programmatically generated perspective warps and Gaussian blurs. We have **not yet** collected real camera-captured degraded QR data; that is explicit future work. Synthetic ground truth (exact homography) is *required* for the white-box diagnosis to be measurable — real captures with a controllable ground truth are a separate, ongoing effort.
 
 Two synthetic degraded-QR sets with ground-truth homography (alignment-center + finder positions per image):
 
